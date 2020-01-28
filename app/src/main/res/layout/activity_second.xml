@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/app_category2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="60dp"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/app_category2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="2dp"
+        android:ems="10"
+        android:text="Category:"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="105dp"
+        android:textSize="18sp"
+        android:entries="@array/categories_arrays" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="162dp"
+        android:ems="10"
+        android:text="Set your time limits:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/spinner1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="207dp"
+        android:ems="10"
+        android:text="Hours:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/hoursTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="210dp"
+        android:text="HoursTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/spinner1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:text="Minutes:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/minsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="251dp"
+        android:text="MinsTextView" />
+
+    <Spinner
+        android:id="@+id/hours_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="207dp"
+        android:entries="@array/hours_arrays"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/minutes_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="214dp"
+        android:layout_marginTop="249dp"
+        android:entries="@array/minutes_arrays"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="311dp"
+        android:layout_marginEnd="139dp"
+        android:text="Save and Return" />
+
+    <TextView
+        android:id="@+id/usage_hrs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="169dp"
+        android:layout_marginLeft="-58dp"
+        android:layout_marginBottom="148dp"
+        android:layout_toRightOf="@+id/usage_minutes"
+        android:text="5"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginBottom="194dp"
+        android:text="Current Usage Time:" />
+
+    <TextView
+        android:id="@+id/usage_minutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="202dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="148dp"
+        android:text="31"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="194dp"
+        android:layout_marginLeft="-38dp"
+        android:layout_marginEnd="210dp"
+        android:layout_marginBottom="148dp"
+        android:layout_toRightOf="@+id/usage_minutes"
+        android:text=":"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginBottom="76dp"
+        android:text=""
+        android:textColor="#CC0000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/result2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="75dp"
+        android:text=""
+        android:textSize="18sp" />
+
+</RelativeLayout>

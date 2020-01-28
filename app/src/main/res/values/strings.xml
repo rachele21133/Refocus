@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">Refocus</string>
+    <string name="action_settings">Settings</string>
+    <string name="image">Image thumbnail</string>
+    <string name="activity2_name">Second Activity</string>
+
+    <string-array name="categories_arrays">
+        <item>Other</item>
+        <item>Art and Design</item>
+        <item>Auto and Vehicles</item>
+        <item>Beauty</item>
+        <item>Books and Reference</item>
+        <item>Business</item>
+        <item>Comics</item>
+        <item>Communication</item>
+        <item>Dating</item>
+        <item>Education</item>
+        <item>Entertainment</item>
+        <item>Events</item>
+        <item>Finance</item>
+        <item>Food and Drink</item>
+        <item>Games</item>
+        <item>Health and Fitness</item>
+        <item>House and Home</item>
+        <item>Libraries</item>
+        <item>Lifestyle</item>
+        <item>Maps and Navigation</item>
+        <item>Medical</item>
+        <item>Music and Audio</item>
+        <item>News and Magazine</item>
+        <item>Parenting</item>
+        <item>Personalization</item>
+        <item>Photography</item>
+        <item>Productivity</item>
+        <item>Shopping</item>
+        <item>Social</item>
+        <item>Sports</item>
+        <item>Tools</item>
+        <item>Travel and Local</item>
+        <item>Video Players</item>
+        <item>Weather</item>
+    </string-array>
+
+    <string-array name="hours_arrays">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+    </string-array>
+
+    <string-array name="minutes_arrays">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+    </string-array>
+</resources>
